@@ -1,6 +1,6 @@
 @extends('layouts.main')
-<main id="main">
-@include('partials.breadcrumbs')
+
+@section('container')
 
 <div class="row justify-content-center my-5">
   <div class="col-md-6">
@@ -69,4 +69,4 @@
 <div class="d-flex justify-content-center">
 {{ $posts->links() }}
 </div>
-</main>
+@endsection

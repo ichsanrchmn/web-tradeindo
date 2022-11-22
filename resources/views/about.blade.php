@@ -1,7 +1,6 @@
 @extends('layouts.main')
-<main id="main">
-    @include('partials.breadcrumbs')
-  
+
+@section('container')  
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container-fluid" data-aos="fade-up">
@@ -245,5 +244,4 @@
       </div>
     </section>
     <!-- End Our Team Section -->
-  </main>
-  <!-- End #main -->
+@endsection

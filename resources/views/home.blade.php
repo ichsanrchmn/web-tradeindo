@@ -1,4 +1,6 @@
-@extends('layouts.main')
+@extends('layouts.home')
+@section('container')
+    
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="hero">
     <div class="info d-flex align-items-center">
@@ -33,7 +35,6 @@
 
   </section><!-- End Hero Section -->
 
-  <main id="main">
     <!-- ======= Fasilitas Section ======= -->
     <section id="fasilitas" class="fasilitas">
       <div class="container" data-aos="fade-up">
@@ -472,5 +473,4 @@
     </div>
   </section>
   <!-- End Get Started Section -->
-
-  </main>
+@endsection
