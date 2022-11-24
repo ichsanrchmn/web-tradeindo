@@ -53,7 +53,10 @@
 </head>
 
 <body>
+  <main id="main">
     @include('partials.header')
+    @yield('container')
+  </main>
     
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
