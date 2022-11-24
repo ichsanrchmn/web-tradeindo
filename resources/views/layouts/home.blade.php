@@ -55,11 +55,8 @@
 <body>
     @include('partials.header')
     
-    
     <main id="main">
-      @include('partials.breadcrumbs')
       @yield('container')
-    
     
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
@@ -101,12 +98,40 @@
   </script>
 </div>
 <!-- TradingView Widget END -->
-    </main>
+</main>
 
     @include('partials.footer')
     
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <div id="preloader"></div>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwAr_ISBOm2nkKeSrn_n22zCMKWcMqjX8_ldXa2WHuS8vV72jbCQujHVUXPOsWqDSrTBQ/exec'
+    const btnKirim = document.querySelector('.btn-kirim')
+    const btnLoading = document.querySelector('.btn-loading')
+    const myAlert = document.querySelector('.my-alert')
+    const form = document.forms['php-email-form']
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      // ketika tombol submit diklik
+      // tampilkan tombol loading, hilangkan tombol kirim
+      btnLoading.classList.toggle('d-none')
+      btnKirim.classList.toggle('d-none')
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          // tampilkan tombol kirim, hilangkan tombol loading
+          btnLoading.classList.toggle('d-none')
+          btnKirim.classList.toggle('d-none')
+          // tampilkan alert
+          myAlert.classList.toggle('d-none')
+          // reset form
+          form.reset()
+          console.log('Success!', response)
+      })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <!-- End Form Control -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

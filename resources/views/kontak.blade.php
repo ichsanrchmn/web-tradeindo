@@ -1,6 +1,5 @@
 @extends('layouts.main')
-<main id="main">
-@include('partials.breadcrumbs')
+@section('container')
 
 <!-- ======= Contact Section ======= -->
 <section id="contact" class="contact">
@@ -83,5 +82,4 @@
     </div>
   </section>
   
-</main>
-      <!-- End #main -->
+@endsection

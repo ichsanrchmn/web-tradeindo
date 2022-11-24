@@ -1,14 +1,15 @@
-@extends('layouts.main')
+@extends('layouts.home')
 @section('container')
+    
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="hero">
     <div class="info d-flex align-items-center">
       <div class="container">
-        <div class="row justify-content-center pt-5">
+        <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
             <h2 data-aos="fade-down">Komunitas Trading Forex <span>Terbaik di Indonesia</span></h2>
             <p data-aos="fade-up">Menciptakan trader sukses di seluruh Indonesia. Dengan berbagai program yang menunjang aktivitas trading dengan mudah, membimbing anda menuju profit konsisten.</p>
-            <a data-aos="fade-up" data-aos-delay="200" href="contact" class="btn-get-started">Registrasi Member</a>
+            <a data-aos="fade-up" data-aos-delay="200" href="contact.php" class="btn-get-started">Registrasi Member</a>
           </div>
         </div>
       </div>
@@ -48,12 +49,12 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <a href="/edukasi">
+                  <a href="kelas-edukasi.php">
                     <div class="card-bg" style="background-image: url(/img/edukasi.webp);"></div></a>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <a href="/edukasi"><h4 class="card-title">KELAS EDUKASI VIP</h4></a>
+                    <a href="kelas-edukasi.php"><h4 class="card-title">KELAS EDUKASI VIP</h4></a>
                     <p>Signal trading profitable dan edukasi setiap hari secara online & offline bersama mentor berpengalaman. Bimbingan dari trader amatir menjadi trader forex profesional! <br /> Dapatkan semua kemudahan trading forex secara gratis melalui smartphone anda.</p>
                   </div>
                 </div>
@@ -65,11 +66,11 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <a href="/expert-advisor"><div class="card-bg" style="background-image: url(/img/advisor.webp);"></div></a>
+                  <a href="expert-advisor.php"><div class="card-bg" style="background-image: url(/img/advisor.webp);"></div></a>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <a href="/expert-advisor"><h4 class="card-title">EXPERT ADVISOR</h4></a>
+                    <a href="expert-advisor.php"><h4 class="card-title">EXPERT ADVISOR</h4></a>
                     <p>Program Asistensi Trading menggunakan algoritma terstruktur dan mutakhir ke aplikasi Meta Trader.<br /> Terintegrasi dengan server premium, trading digital sekarang hanya dalam genggaman smartphone! Nikmati WD profit konsisten tanpa harus khawatir human error.</p>
                   </div>
                 </div>
@@ -81,11 +82,11 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <a href="/copytrade"><div class="card-bg" style="background-image: url(/img/copytrade.webp);"></div></a>
+                  <a href="copytrade.php"><div class="card-bg" style="background-image: url(/img/copytrade.webp);"></div></a>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <a href="/copytrade"><h4 class="card-title">COPYTRADE</h4></a>
+                    <a href="copytrade.php"><h4 class="card-title">COPYTRADE</h4></a>
                     <p>Program copytrade ini memudahkan anda yang tidak punya banyak waktu, akun anda akan disambungkan secara otomatis ke akun master. Ketika akun master open posisi, akun anda otomatis tersambung. Tidak perlu lagi khawatir salah analisa ataupun entry, semua sudah dihandle oleh tim master Trade Indo.</p>
                   </div>
                 </div>
@@ -97,11 +98,11 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <a href="/pamm"><div class="card-bg" style="background-image: url(/img/pamm.webp);"></div></a>
+                  <a href="pamm.php"><div class="card-bg" style="background-image: url(/img/pamm.webp);"></div></a>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <a href="/pamm"><h4 class="card-title" style="text-transform: uppercase;">pamm</h4></a>
+                    <a href="pamm.php"><h4 class="card-title">SUPERSONIC PAMM</h4></a>
                     <p><i>Percent Allocation Management Module</i> adalah layanan spesial yang memungkinkan anda meraih profit tanpa perlu trading sendiri. Hanya perlu deposit balance ke akun manajer, anda akan menerima remunerasi dari profit yang dihasilkan dari transaksi di akun manajer dengan modal tersebut.</p>
                   </div>
                 </div>
@@ -212,7 +213,7 @@
                 <h4>Seminar</h4>
                 <p>Seminar di beberapa Kota Besar di Indonesia</p>
                 <a href="/img/projects/seminar-1.webp" title="Seminar" data-gallery="portfolio-gallery-seminar" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="projects" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="projects.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div>
@@ -226,7 +227,7 @@
                 <h4>Edukasi Offline</h4>
                 <p>Edukasi langsung bersama para mentor Trade Indo</p>
                 <a href="/img/projects/edukasi-1.webp" title="Edukasi" data-gallery="portfolio-gallery-edukasi" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="projects" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="projects.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div>
@@ -240,7 +241,7 @@
                 <h4>Live Trade</h4>
                 <p>Live Trade & Webinar Online melalui berbagai platform live conference</p>
                 <a href="/img/projects/live-trade1.webp" title="Live Trade" data-gallery="portfolio-gallery-livetrade" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="projects" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="projects.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div>
@@ -254,7 +255,7 @@
                 <h4>Edukasi Online</h4>
                 <p>Edukasi langsung bersama para mentor Trade Indo</p>
                 <a href="/img/projects/live-trade6.webp" title="Edukasi" data-gallery="portfolio-gallery-edukasi" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="projects" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="projects.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div>
@@ -268,7 +269,7 @@
                 <h4>Seminar</h4>
                 <p>Seminar di beberapa Kota Besar di Indonesia</p>
                 <a href="/img/projects/seminar-2.webp" title="Seminar" data-gallery="portfolio-gallery-seminar" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="projects" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="projects.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div>
@@ -282,7 +283,7 @@
                 <h4>Live Trade</h4>
                 <p>Live Trade & Webinar Online melalui berbagai platform live conference</p>
                 <a href="/img/projects/live-trade2.webp" title="Live Trade" data-gallery="portfolio-gallery-livetrade" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="projects" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="projects.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div>

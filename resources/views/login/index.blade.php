@@ -1,6 +1,5 @@
 @extends('layouts.main')
-<main id="main">
-@include('partials.breadcrumbs')
+@section('container')
 
 <div class="row justify-content-center">
     <div class="col-md-4">
@@ -64,4 +63,4 @@
         </div>
       </div>
     </section>
-  </main>
+@endsection

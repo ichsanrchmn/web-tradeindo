@@ -1,7 +1,6 @@
 @extends('layouts.main')
-<main id="main">
-@include('partials.breadcrumbs')
-
+@section('container')
+    
 <!-- ======= Broker Section ======= -->
 <section id="broker" class="broker">
     <div class="container-fluid" data-aos="fade-up">
@@ -49,5 +48,4 @@
     </div>
   </section>
   <!-- End Broker Section -->
-</main>
-<!-- End #main -->
+@endsection
