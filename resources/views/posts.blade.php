@@ -22,7 +22,7 @@
 @if ($posts->count()) 
 <div class="card mb-3">
       <div style="max-height: 768px; background-size: cover; overflow: hidden;" class="mb-3">
-        <img src="{{ asset('storage/' . $posts[0]->image) }}" alt="{{ $posts[0]->category->name }}" class="card-img-top">
+        <img src="{{ asset('uploads/' . $posts[0]->image) }}" alt="{{ $posts[0]->category->name }}" class="card-img-top">
       </div>
     <div class="card-body text-center">
       <h3 class="card-title"><a href="/posts/{{ $posts[0]->slug }}" class="text-decoration-none">{{ $posts[0]->title }}</a></h3>
