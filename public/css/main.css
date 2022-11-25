@@ -577,9 +577,8 @@ section {
 }
 .fasilitas .card-item .card-bg {
     min-height: 400px;
-    min-width: 270px;
+    min-width: 250px;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
 }
@@ -590,14 +589,7 @@ section {
 .recent-blog-posts .post-item .post-content {
     padding: 30px;
 }
-.fasilitas .card-item h4 {
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 18px;
-}
-.fasilitas .card-item p {
-    margin: 0;
-}
+
 .services .service-item {
     padding: 40px;
     background: #fff;

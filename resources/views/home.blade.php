@@ -45,17 +45,17 @@
         </div>
 
         <div class="row gy-4">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <a href="kelas-edukasi.php">
-                    <div class="card-bg" style="background-image: url(/img/edukasi.webp);"></div></a>
+                  <a href="/edukasi"><div class="card-bg" style="background-image: url(/img/edukasi.webp);"></div></a>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <a href="kelas-edukasi.php"><h4 class="card-title">KELAS EDUKASI VIP</h4></a>
-                    <p>Signal trading profitable dan edukasi setiap hari secara online & offline bersama mentor berpengalaman. Bimbingan dari trader amatir menjadi trader forex profesional! <br /> Dapatkan semua kemudahan trading forex secara gratis melalui smartphone anda.</p>
+                    <a href="/edukasi"><h4 class="card-title mb-2 fw-bold" style="text-transform: uppercase">kelas edukasi vip</h4></a>
+                    <p>Signal trading profitable dan edukasi setiap hari secara online & offline bersama mentor berpengalaman. Bimbingan dari trader amatir menjadi trader forex profesional! Dapatkan semua kemudahan trading forex secara gratis melalui smartphone anda.</p>
                   </div>
                 </div>
               </div>
@@ -66,12 +66,12 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <a href="expert-advisor.php"><div class="card-bg" style="background-image: url(/img/advisor.webp);"></div></a>
+                  <a href="/expert-advisor"><div class="card-bg" style="background-image: url(/img/advisor.webp);"></div></a>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <a href="expert-advisor.php"><h4 class="card-title">EXPERT ADVISOR</h4></a>
-                    <p>Program Asistensi Trading menggunakan algoritma terstruktur dan mutakhir ke aplikasi Meta Trader.<br /> Terintegrasi dengan server premium, trading digital sekarang hanya dalam genggaman smartphone! Nikmati WD profit konsisten tanpa harus khawatir human error.</p>
+                    <a href="/expert-advisor"><h4 class="card-title mb-2 fw-bold" style="text-transform: uppercase">expert advisor</h4></a>
+                    <p>Program Asistensi Trading menggunakan algoritma terstruktur dan mutakhir ke aplikasi Meta Trader.<br /> Terintegrasi dengan server premium, trading digital sekarang hanya dalam genggaman smartphone!</p>
                   </div>
                 </div>
               </div>
@@ -82,12 +82,12 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <a href="copytrade.php"><div class="card-bg" style="background-image: url(/img/copytrade.webp);"></div></a>
+                  <a href="/copytrade"><div class="card-bg" style="background-image: url(/img/copytrade.webp);"></div></a>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <a href="copytrade.php"><h4 class="card-title">COPYTRADE</h4></a>
-                    <p>Program copytrade ini memudahkan anda yang tidak punya banyak waktu, akun anda akan disambungkan secara otomatis ke akun master. Ketika akun master open posisi, akun anda otomatis tersambung. Tidak perlu lagi khawatir salah analisa ataupun entry, semua sudah dihandle oleh tim master Trade Indo.</p>
+                    <a href="/copytrade"><h4 class="card-title mb-2 fw-bold" style="text-transform: uppercase">copytrade</h4></a>
+                    <p>Program copytrade ini memudahkan anda yang tidak punya banyak waktu, akun anda akan disambungkan secara otomatis ke akun master. Ketika akun master open posisi, akun anda otomatis tersambung. Semua sudah dihandle oleh tim master Trade Indo.</p>
                   </div>
                 </div>
               </div>
@@ -98,12 +98,28 @@
             <div class="card-item">
               <div class="row">
                 <div class="col-xl-5">
-                  <a href="pamm.php"><div class="card-bg" style="background-image: url(/img/pamm.webp);"></div></a>
+                  <a href="/pamm"><div class="card-bg" style="background-image: url(/img/pamm.webp);"></div></a>
                 </div>
                 <div class="col-xl-7 d-flex align-items-center">
                   <div class="card-body">
-                    <a href="pamm.php"><h4 class="card-title">SUPERSONIC PAMM</h4></a>
-                    <p><i>Percent Allocation Management Module</i> adalah layanan spesial yang memungkinkan anda meraih profit tanpa perlu trading sendiri. Hanya perlu deposit balance ke akun manajer, anda akan menerima remunerasi dari profit yang dihasilkan dari transaksi di akun manajer dengan modal tersebut.</p>
+                    <a href="/pamm"><h4 class="card-title mb-2 fw-bold" style="text-transform: uppercase">pamm</h4></a>
+                    <p><i>Percent Allocation Management Module</i> adalah layanan spesial yang memungkinkan anda meraih profit tanpa perlu trading sendiri. Hanya perlu deposit balance ke akun manager, anda akan menerima profit yang dihasilkan dari transaksi di akun manager.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <a href="/bengkel-forex"><div class="card-bg" style="background-image: url(/img/bengkel-forex.jpg);"></div></a>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <a href="/bengkel-forex"><h4 class="card-title mb-2 fw-bold" style="text-transform: uppercase">bengkel forex</h4></a>
+                    <p>Program Bengkel Forex merupakan trading recovery dari loss atau floating yang dialami member sampai akunnya kembali pulih dan dapat memperoleh kembali profit.</p>
                   </div>
                 </div>
               </div>
