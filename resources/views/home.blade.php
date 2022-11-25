@@ -9,7 +9,7 @@
           <div class="col-lg-6 text-center">
             <h2 data-aos="fade-down">Komunitas Trading Forex <span>Terbaik di Indonesia</span></h2>
             <p data-aos="fade-up">Menciptakan trader sukses di seluruh Indonesia. Dengan berbagai program yang menunjang aktivitas trading dengan mudah, membimbing anda menuju profit konsisten.</p>
-            <a data-aos="fade-up" data-aos-delay="200" href="contact.php" class="btn-get-started">Registrasi Member</a>
+            <a data-aos="fade-up" data-aos-delay="100" href="contact.php" class="btn-get-started">Registrasi Member</a>
           </div>
         </div>
       </div>
