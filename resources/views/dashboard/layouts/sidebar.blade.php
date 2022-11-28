@@ -13,18 +13,7 @@
             My Posts
           </a>
         </li>
-        <hr>
-        <li class="nav-item">
-          <a class="nav-link">
-            <form action="/logout" method="post">
-              @csrf
-              <button type="submit" class="nav-link px-3 border-0"><span data-feather="power"></span> Logout</button>
-            </form>
-          </a>
-        </li>
-      </ul>
-
-      @can('admin')
+        @can('admin')
       <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
         <span>Administrator</span>
       </h6>
@@ -37,6 +26,15 @@
         </li>
       </ul>
       @endcan
-
+      <hr>
+        <li class="nav-item">
+          <a class="nav-link">
+            <form action="/logout" method="post">
+              @csrf
+              <button type="submit" class="nav-link px-3 border-0"><span data-feather="power"></span> Logout</button>
+            </form>
+          </a>
+        </li>
+      </ul>
     </div>
 </nav>
